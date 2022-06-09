@@ -1,2 +1,2 @@
 language = "haskell"
-run = "cabal new-run"
+run = "cabal new-run parsley"

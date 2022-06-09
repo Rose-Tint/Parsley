@@ -8,6 +8,6 @@ import Common.StateNum
 
 data Action
     = Shift StateNum
-    | Reduce Rule
+    | Reduce ProdId
+    | Fail
     | Accept
-
